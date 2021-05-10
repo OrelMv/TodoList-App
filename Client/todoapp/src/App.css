@@ -1,0 +1,98 @@
+body{
+  background-color: #D2B48C;
+  font-family: cursive;
+
+}
+
+@import url('https://cdn.syncfusion.com/ej2/material.css');
+
+.todos-body{
+  margin-left: 230px;
+  overflow-y: auto;
+}
+
+.todos-body h2{
+  text-align: center;
+  margin-right: 230px;
+}
+
+.adding-todo-section{
+  margin-left: 350px;
+  margin-top: 20px;
+}
+
+.single-todo-body {
+  display: flex;
+  margin-bottom: 10px;
+}
+.body-timeDatePage{
+  display: flex;
+  margin-left: 250px;
+  margin-bottom: 10px;
+}
+
+.time-input{
+  margin-left: 20px;
+  padding: 5px 5px;
+}
+
+.todo-display-date-page{
+  margin-left: 350px;
+  margin-bottom: 10px;
+}
+
+
+.todo{
+  padding: 4px ;
+  width: 350px;
+  background-color: white;
+  border: 1px solid black;
+  overflow-wrap: break-word;
+}
+
+.check-btn{
+  padding: 6px 9px;
+}
+
+.del-btn{
+  padding: 7px 5px;
+}
+
+.todo-completed{
+  background-color: lightgray;
+  text-decoration: line-through;
+  padding: 4px ;
+  width: 350px;
+  border: 1px solid black;
+  font-family: cursive;
+  overflow-wrap: break-word;
+}
+
+.add-todo-input{
+  padding: 7px 20px;
+  margin-bottom: 5px;
+  width: 160px;
+}
+
+.pickDateAndTime-btn{
+  padding: 5px 9px;
+  cursor: pointer;
+  margin-left: 35px;
+}
+
+.add-todo-btn{
+  padding: 5px 9px;
+  cursor: pointer;
+  margin-left: 380px;
+}
+
+.calendar{
+  width: 200px;
+}
+
+.date-time-display{
+  font-size: 12px;
+  border: 1px solid black;
+  width: 12%;
+  border-bottom: transparent;
+}
