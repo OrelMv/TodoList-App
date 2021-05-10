@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
 
-function AddToDo(props) {
+function AddToDoInput(props) {
 
     const [todoInput, setTodoInput] = useState('')
 
@@ -28,4 +28,4 @@ function AddToDo(props) {
     )
 }
 
-export default AddToDo
+export default AddToDoInput
